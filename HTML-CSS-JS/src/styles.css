@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    border:solid 1px black;
+    background-color: darkolivegreen;
+    align-items: center;
+    
+}
+header h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+.menu-container {
+    display:flex;
+    width: 300px;
+    justify-content: space-around;
+    
+}
+
+.menu-container li{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+main{
+    background-color: #B9F3C5;
+    
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    max-height: 500px;
+    
+}
+    
+.description{
+    width: 85%;
+    font-size: 15px;
+}
+    
+.description-container{
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+footer{
+    display: flex;
+    height: 163px; ;
+}
+
+.footer-logo{
+
+    width: 25%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-information{
+    width: 25%;
+    background-color: blueviolet;
+
+}
+.footer-explore{
+    width: 25%;
+    background-color: chocolate;
+
+}
+.footer-reources{
+    width: 25%;
+    background-color: burlywood;
+
+}
+.footer-image-logo{
+    width: 100px;
+    height: 70px;
+    
+}
+
+.footer-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.footer-information ul {
+    width: 60%;
+    margin: 0;
+}
+
+.footer-information h4 {
+    margin: 0;
+}
+
+.footer-information li, a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
